@@ -1,0 +1,90 @@
+Find the password of each hash
+
+ 
+
+Tools list :
+- Python3
+- python library : hashlib
+- mentalist (https://github.com/sc0tfree/mentalist/releases)
+- crunch (https://github.com/jim3ma/crunch)
+
+ 
+
+=================================================================
+Exo1: SHA-256
+
+ 
+
+Find the password using a leaked database (https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Leaked-Databases/phpbb.txt)
+
+ 
+
+```
+Hash : 3ddcd95d2bff8e97d3ad817f718ae207b98c7f2c84c5519f89cd15d7f8ee1c3b
+```
+
+ 
+
+=================================================================
+Exo2: SHA-256
+
+ 
+
+Use the information of the person and the salt in order to find the password
+
+ 
+
+```
+Salt : 5UA@/Mw^%He]SBaU
+```
+
+ 
+
+```
+Username: laplusbelle
+Name: Marie
+Surname: Curie
+Name of pet: Woof
+Birthday: 2January, 1980
+Name of employer: Epitech LaRéunion
+Name of mother: JeanNeoskour
+Name of father: JvaistFairecourir
+First name of husband: Eltrofor
+Birthday of husband: 29December, 1981
+```
+
+ 
+
+```
+Hash : fc2298f491eac4cff95e7568806e088a901c904cda7dd3221f551e5b89b3c3aa
+```
+
+ 
+
+=================================================================
+Exo3: - SHA-1 ; Pattern -
+
+ 
+
+Imagine a grid of 3x3:
+
+ 
+
+a b c
+d e f
+g h i
+
+ 
+
+Find the password
+
+ 
+
+-Rules-
+- use every characters
+- each character can be only used once.
+
+ 
+
+```
+Hash : 91077079768edba10ac0c93b7108bc639d778d67
